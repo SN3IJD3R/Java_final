@@ -1,0 +1,23 @@
+
+ Instrucciones de ejecución
+
+ Requisitos
+
+- Tener instalado **Java JDK 17 o superior**  
+- Tener **Visual Studio Code** con la extensión **Extension Pack for Java**
+
+
+ Ejecutar en VS Code
+
+1. Abre la carpeta del proyecto `ProyectoFinalSwing` en VS Code.  
+2. Abre el archivo `src/App.java`.  
+3. Haz clic en **Run ▶️** (botón sobre el método `main`).  
+4. Ingresa las credenciales del login.
+
+
+ Ejecutar en terminal
+
+ bash
+cd ProyectoFinalSwing
+javac src/app.java -d out
+java -cp out app
